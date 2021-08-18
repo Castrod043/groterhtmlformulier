@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<html>
+
+<head>
+    <title>Castro 4 president </title>
+</head>
+
+<body class="background-color">
+    <main>
+        <header class="white-border">
+            <h1 class="center">Contactpagina</h1>
+        </header>
+        <div>
+            <header>
+                <nav class="navi">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="row2">
+            <h2>Laat hier een bericht achter</h2>
+            <form name="contact" netlify>
+                <p><label>Naam: <input type="text" name="name"></label><br></p>
+                <p><label>Email: <input type="email" name="email"></label><br></p>
+                <p><label>Tel: <input type="tel" name="tel"></label></p>
+                <p><label>Leeftijd: <input type="number" name="Leeftijd"></label></p>
+                <p><label>Geboorte datum: <input type="date" name="Geboorte datum"></label></p>
+                <input type="radio" id="vrouw" name="Gender" value="vrouw">
+                <label class="label" for="vrouw">Vrouw</label>
+                <input type="radio" id="man" name="Gender" value="Man">
+                <label class="label" for="man">Man</label><br><br>
+                <p><label>Favoriete cuisine (meerdere antwoorden mogelijk)</label></p>
+                <input type="checkbox" id="favkeuken1" name="favkeuken1" value="Spaans">
+                <label class="label" for="favkeuken1">Spaans</label><br>
+                <input type="checkbox" id="favekeuken2" name="favkeuken2" value="Italiaans">
+                <label class="label" for="favkeuken2">Italiaans</label><br>
+                <input type="checkbox" id="favkeuken3" name="favekeuken3" value="Frans">
+                <label class="label" for="favkeuken3">Frans</label><br>
+                <input type="checkbox" id="favkeuken4" name="favekeuken4" value="Arabisch">
+                <label class="label" for="favkeuken4">Arabisch</label><br>
+                <p><label for="favcolor">Selecteer jouw favoriete shortkleur:</label></p>
+                <input type="color" id="favcolor" name="favcolor"><br>
+                <p><label>Biografie: <textarea name="Biografie"></textarea></label></p>
+                <label class="label" for="myfile">Upload je laatste recept:</label><br>
+                <input type="file" id="receptfile" name="Recept"><br><br>
+                <label class="label" for="receptenwebsite">Url naar je recepten website:</label>
+                <input type="url" id="receptenwebsite" name="receptenwebsite">
+
+
+
+                <p><button type="submit">Stuur</button></p>
+                <input type="reset">
+
+
+            </form>
+
+        </div>
+    </main>
+    <footer>
+        <h2 class="center">copyright by Castro</h2>
+    </footer>
+</body>
+
+
+</html>
